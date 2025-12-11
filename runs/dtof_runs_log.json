@@ -34,5 +34,41 @@
     "best_val": 0.008972388692200184,
     "loss_plot": "runs/exp_single_w21_o1_loss_curves.png",
     "model_path": "runs/exp_single_w21_o1_best.pth"
+  },
+  {
+    "timestamp": "2025-12-11T10:31:53",
+    "run_name": "exp_single_w21_o1",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 0.011004448557893435,
+    "loss_plot": "runs/exp_single_w21_o1_loss_curves.png",
+    "model_path": "runs/exp_single_w21_o1_best.pth"
+  },
+  {
+    "timestamp": "2025-12-11T10:48:52",
+    "run_name": "exp_single_w21_o1",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 0.03676048914591471,
+    "loss_plot": "runs/exp_single_w21_o1_loss_curves.png",
+    "model_path": "runs/exp_single_w21_o1_best.pth"
   }
 ]
