@@ -70,5 +70,23 @@
     "best_val": 0.025368862474958103,
     "loss_plot": "runs/exp_single_w21_o1_loss_curves.png",
     "model_path": "runs/exp_single_w21_o1_best.pth"
+  },
+  {
+    "timestamp": "2025-12-11T09:53:01",
+    "run_name": "exp_single_w21_o1",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 0.008972388692200184,
+    "loss_plot": "runs/exp_single_w21_o1_loss_curves.png",
+    "model_path": "runs/exp_single_w21_o1_best.pth"
   }
 ]
