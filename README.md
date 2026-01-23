@@ -1,33 +1,32 @@
 📂 Repository Structure
 
 .
-├── __pycache__/                  # Python bytecode cache (auto-generated)
-├── .venv/                        # Local Python virtual environment
+├── __pycache__/
+├── .venv/
 │
-├── Best paths/                   # Saved optimisation paths / experiment artefacts
+├── Best_paths/
 ├── CNN_initial_saved_pytorch_model_weights/
-│                                  # Saved PyTorch model checkpoints (.pt)
 │
-├── Figs/                         # Training curves and intermediate figures
-├── JSON logs/                    # JSON experiment logs (configs, metrics, metadata)
-├── Model evaluation figs/        # Evaluation plots (pred vs GT, error distributions)
+├── Figs/
+├── JSON_logs/
+├── Model_evaluation_figs/
 │
-├── Pre-obtained data/            # Input datasets and simulation outputs
-│   ├── dataset_homo_small.mat    # MCX-simulated DTOFs (MATLAB v7.3, HDF5)
-│   ├── DTOFs_Homo_raw.csv        # Raw DTOFs (legacy CSV format)
-│   └── DTOFs_Homo_labels.csv     # Optical property labels (μa, μs′)
+├── Pre-obtained_data/
+│   ├── dataset_homo_small.mat
+│   ├── DTOFs_Homo_raw.csv
+│   └── DTOFs_Homo_labels.csv
 │
-├── DL_CNN_initial.ipynb          # Baseline CNN pipeline (core reference notebook)
-├── DL_Full_Pipeline.ipynb        # End-to-end pipeline with logging & evaluation
-├── DL_PostProcessing.ipynb       # Post-processing, visualisation, and analysis
+├── DL_CNN_initial.ipynb
+├── DL_Full_Pipeline.ipynb
+├── DL_PostProcessing.ipynb
 │
-├── DTOF_plot.py                  # DTOF visualisation utilities
-├── DTOF_std_plot.py              # DTOF normalisation / standardisation plots
+├── DTOF_plot.py
+├── DTOF_std_plot.py
 │
-├── DTOFs_whiteMC(in).csv         # Additional MC simulation output (White MC)
+├── DTOFs_whiteMC(in).csv
 │
-├── training_core.py              # Core training logic (dataset, model, training loop)
-├── README.md                     # Project documentation (this file)
+├── training_core.py
+└── README.md
 
 🧭 Directory and File Descriptions
 📁 Pre-obtained data/
