@@ -1,5 +1,7 @@
-📂 Repository Structure
-
+```bash
+```
+### 📂 Repository Structure
+```
 .
 ├── __pycache__/
 ├── .venv/
@@ -27,6 +29,7 @@
 │
 ├── training_core.py
 └── README.md
+```
 
 🧭 Directory and File Descriptions
 📁 Pre-obtained data/
@@ -36,6 +39,12 @@ Contains all input datasets used by the deep-learning pipeline.
 dataset_homo_small.mat
 Primary dataset used in the current pipeline.
 MATLAB v7.3 (HDF5) file containing:
+
+```
+X  # DTOFs (N, T)
+y  # optical property labels [μa, μs′]
+t  # time vector
+```
 
 DTOFs (X)
 
