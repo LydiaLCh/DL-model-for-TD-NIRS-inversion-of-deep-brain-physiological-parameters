@@ -4606,5 +4606,3461 @@
       "mua": "Model evaluation figs/hybrid_4ch_w41_o4_lr0.0003_pct_error_mua.png",
       "mus": "Model evaluation figs/hybrid_4ch_w41_o4_lr0.0003_pct_error_mus.png"
     }
+  },
+  {
+    "timestamp": "2026-01-30T09:47:55",
+    "run_name": "single_w11_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 22.713798999786377,
+    "loss_plot": "Model evaluation figs/single_w11_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w11_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.09980766475200653,
+      3.639341354370117
+    ],
+    "RMSE": [
+      0.12329530715942383,
+      5.593508243560791
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:48:28",
+    "run_name": "single_w11_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 24.250063180923462,
+    "loss_plot": "Model evaluation figs/single_w11_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w11_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.06508858501911163,
+      3.9997644424438477
+    ],
+    "RMSE": [
+      0.08524642884731293,
+      5.676856517791748
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:49:01",
+    "run_name": "early_mid_late_w11_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.576122403144836,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.28670158982276917,
+      3.024859666824341
+    ],
+    "RMSE": [
+      0.33927029371261597,
+      4.935020923614502
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:49:33",
+    "run_name": "early_mid_late_w11_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 7.834634050726891,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.046781621873378754,
+      2.466391086578369
+    ],
+    "RMSE": [
+      0.06196264922618866,
+      4.470160007476807
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:50:07",
+    "run_name": "hybrid_4ch_w11_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 9.747107803821564,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.0805465430021286,
+      2.6417267322540283
+    ],
+    "RMSE": [
+      0.09573919326066971,
+      4.96495246887207
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:50:40",
+    "run_name": "hybrid_4ch_w11_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.818821907043457,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.0667610764503479,
+      3.0950818061828613
+    ],
+    "RMSE": [
+      0.08190301060676575,
+      5.292994499206543
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:51:12",
+    "run_name": "single_w11_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 15.782428735867143,
+    "loss_plot": "Model evaluation figs/single_w11_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w11_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.15144680440425873,
+      3.780357599258423
+    ],
+    "RMSE": [
+      0.17999625205993652,
+      6.352997303009033
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:51:46",
+    "run_name": "single_w11_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.407570004463196,
+    "loss_plot": "Model evaluation figs/single_w11_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w11_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.06040921062231064,
+      3.055922508239746
+    ],
+    "RMSE": [
+      0.07719089835882187,
+      5.218781471252441
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:52:19",
+    "run_name": "early_mid_late_w11_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.140442252159119,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.05232555419206619,
+      3.375037908554077
+    ],
+    "RMSE": [
+      0.06432831287384033,
+      5.543302059173584
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:52:51",
+    "run_name": "early_mid_late_w11_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.540116786956787,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.0682673379778862,
+      3.8018932342529297
+    ],
+    "RMSE": [
+      0.08143787831068039,
+      5.683452606201172
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:53:24",
+    "run_name": "hybrid_4ch_w11_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 9.898131653666496,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.09139245748519897,
+      2.901919364929199
+    ],
+    "RMSE": [
+      0.1033477932214737,
+      5.009500980377197
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:53:57",
+    "run_name": "hybrid_4ch_w11_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 7.277137845754623,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.056666165590286255,
+      2.4672536849975586
+    ],
+    "RMSE": [
+      0.06869808584451675,
+      4.297041893005371
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:54:29",
+    "run_name": "single_w11_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 14.392165388911963,
+    "loss_plot": "Model evaluation figs/single_w11_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w11_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.07568034529685974,
+      3.586139440536499
+    ],
+    "RMSE": [
+      0.09018810093402863,
+      6.06374454498291
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:55:02",
+    "run_name": "single_w11_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.272887110710144,
+    "loss_plot": "Model evaluation figs/single_w11_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w11_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.06838743388652802,
+      3.333653450012207
+    ],
+    "RMSE": [
+      0.08152008056640625,
+      4.934869766235352
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:55:34",
+    "run_name": "early_mid_late_w11_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.012176752090454,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.07276305556297302,
+      2.5840530395507812
+    ],
+    "RMSE": [
+      0.09809427708387375,
+      4.457243919372559
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:56:08",
+    "run_name": "early_mid_late_w11_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.4990154504776,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.07048546522855759,
+      3.395127296447754
+    ],
+    "RMSE": [
+      0.09315340220928192,
+      5.451056480407715
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:56:40",
+    "run_name": "hybrid_4ch_w11_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.41931927204132,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.19388151168823242,
+      2.372594118118286
+    ],
+    "RMSE": [
+      0.2562454342842102,
+      4.4671244621276855
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:57:13",
+    "run_name": "hybrid_4ch_w11_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.560995101928711,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.06163059175014496,
+      2.7665863037109375
+    ],
+    "RMSE": [
+      0.08310853689908981,
+      5.180111885070801
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:57:45",
+    "run_name": "single_w11_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 14.022146880626678,
+    "loss_plot": "Model evaluation figs/single_w11_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w11_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.05248011648654938,
+      3.4869649410247803
+    ],
+    "RMSE": [
+      0.06332015991210938,
+      5.963266372680664
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:58:17",
+    "run_name": "single_w11_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 21.151798248291016,
+    "loss_plot": "Model evaluation figs/single_w11_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w11_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.08873296529054642,
+      3.3926825523376465
+    ],
+    "RMSE": [
+      0.10893252491950989,
+      5.461834907531738
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w11_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w11_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:58:49",
+    "run_name": "early_mid_late_w11_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 14.665273189544678,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.1409796178340912,
+      3.433839797973633
+    ],
+    "RMSE": [
+      0.1625223159790039,
+      5.526597023010254
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:59:22",
+    "run_name": "early_mid_late_w11_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.909624576568604,
+    "loss_plot": "Model evaluation figs/early_mid_late_w11_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w11_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.0669071152806282,
+      3.7186408042907715
+    ],
+    "RMSE": [
+      0.0770057886838913,
+      6.312979698181152
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w11_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w11_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T09:59:53",
+    "run_name": "hybrid_4ch_w11_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.077555179595947,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.04374902322888374,
+      3.270920991897583
+    ],
+    "RMSE": [
+      0.05296196788549423,
+      5.424014091491699
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:00:26",
+    "run_name": "hybrid_4ch_w11_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 11,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.452086329460144,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w11_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w11_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.0858175978064537,
+      2.7760558128356934
+    ],
+    "RMSE": [
+      0.11979878693819046,
+      4.764692783355713
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w11_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w11_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:00:58",
+    "run_name": "single_w21_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.35868525505066,
+    "loss_plot": "Model evaluation figs/single_w21_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w21_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.0738137885928154,
+      3.025697708129883
+    ],
+    "RMSE": [
+      0.0926237404346466,
+      5.148963451385498
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:01:31",
+    "run_name": "single_w21_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.663186430931091,
+    "loss_plot": "Model evaluation figs/single_w21_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w21_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.05419708788394928,
+      2.893738031387329
+    ],
+    "RMSE": [
+      0.07146427780389786,
+      4.783265590667725
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:02:03",
+    "run_name": "early_mid_late_w21_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.690586566925049,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.08069400489330292,
+      3.1956772804260254
+    ],
+    "RMSE": [
+      0.12243194133043289,
+      4.835794925689697
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:02:36",
+    "run_name": "early_mid_late_w21_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.326048135757446,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.0945449247956276,
+      3.2556140422821045
+    ],
+    "RMSE": [
+      0.12827010452747345,
+      5.469411373138428
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:03:11",
+    "run_name": "hybrid_4ch_w21_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 19.273067951202393,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.1082296147942543,
+      4.077377796173096
+    ],
+    "RMSE": [
+      0.13464020192623138,
+      6.56935453414917
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:03:43",
+    "run_name": "hybrid_4ch_w21_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.727012157440186,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.11039765179157257,
+      3.5152158737182617
+    ],
+    "RMSE": [
+      0.12494086474180222,
+      5.19517183303833
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:04:15",
+    "run_name": "single_w21_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.931363521143794,
+    "loss_plot": "Model evaluation figs/single_w21_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w21_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.09024643152952194,
+      2.9812068939208984
+    ],
+    "RMSE": [
+      0.11703956872224808,
+      5.286831855773926
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:04:47",
+    "run_name": "single_w21_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.753033757209778,
+    "loss_plot": "Model evaluation figs/single_w21_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w21_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.12696899473667145,
+      3.1719231605529785
+    ],
+    "RMSE": [
+      0.15067069232463837,
+      5.227434158325195
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:05:20",
+    "run_name": "early_mid_late_w21_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.754557132720947,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.06129547208547592,
+      2.9780611991882324
+    ],
+    "RMSE": [
+      0.0718250498175621,
+      4.922520160675049
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:05:53",
+    "run_name": "early_mid_late_w21_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 28.26098871231079,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.0699821189045906,
+      3.126979112625122
+    ],
+    "RMSE": [
+      0.09008046984672546,
+      5.3188018798828125
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:06:27",
+    "run_name": "hybrid_4ch_w21_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 18.11730933189392,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.059827595949172974,
+      3.4206037521362305
+    ],
+    "RMSE": [
+      0.07290714979171753,
+      5.723845958709717
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:07:00",
+    "run_name": "hybrid_4ch_w21_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.288929782807827,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.05159449949860573,
+      3.0487778186798096
+    ],
+    "RMSE": [
+      0.0654241070151329,
+      5.354823112487793
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:07:32",
+    "run_name": "single_w21_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.590867839753628,
+    "loss_plot": "Model evaluation figs/single_w21_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w21_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.06130041182041168,
+      3.1345267295837402
+    ],
+    "RMSE": [
+      0.0789225772023201,
+      5.432754993438721
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:08:05",
+    "run_name": "single_w21_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 9.667408257722855,
+    "loss_plot": "Model evaluation figs/single_w21_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w21_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.1049157902598381,
+      2.897475481033325
+    ],
+    "RMSE": [
+      0.15153616666793823,
+      4.92372989654541
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:08:36",
+    "run_name": "early_mid_late_w21_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 21.935866832733154,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.05703391879796982,
+      3.278052568435669
+    ],
+    "RMSE": [
+      0.07246740162372589,
+      5.659636974334717
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:09:10",
+    "run_name": "early_mid_late_w21_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 18.494669914245605,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.06853572279214859,
+      4.405881881713867
+    ],
+    "RMSE": [
+      0.0810876116156578,
+      6.120476245880127
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:09:43",
+    "run_name": "hybrid_4ch_w21_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.167352437973022,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.09335139393806458,
+      3.2230091094970703
+    ],
+    "RMSE": [
+      0.11435285210609436,
+      5.8438262939453125
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:10:15",
+    "run_name": "hybrid_4ch_w21_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.41014003753662,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.07759253680706024,
+      3.5550742149353027
+    ],
+    "RMSE": [
+      0.09862949699163437,
+      5.600698947906494
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:10:47",
+    "run_name": "single_w21_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 7.746947944164276,
+    "loss_plot": "Model evaluation figs/single_w21_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w21_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.10438431054353714,
+      1.9879837036132812
+    ],
+    "RMSE": [
+      0.12902432680130005,
+      3.863438129425049
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:11:19",
+    "run_name": "single_w21_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.739931240677834,
+    "loss_plot": "Model evaluation figs/single_w21_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w21_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.07433121651411057,
+      3.332794189453125
+    ],
+    "RMSE": [
+      0.0902794599533081,
+      5.4453630447387695
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w21_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w21_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:11:52",
+    "run_name": "early_mid_late_w21_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.31703158468008,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.07697737962007523,
+      3.166923761367798
+    ],
+    "RMSE": [
+      0.10624584555625916,
+      5.59576416015625
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:12:27",
+    "run_name": "early_mid_late_w21_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.60563650727272,
+    "loss_plot": "Model evaluation figs/early_mid_late_w21_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w21_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.06091511622071266,
+      3.1056387424468994
+    ],
+    "RMSE": [
+      0.07562712579965591,
+      5.152649402618408
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w21_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w21_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:13:00",
+    "run_name": "hybrid_4ch_w21_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.339247822761536,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.06581699103116989,
+      3.2916436195373535
+    ],
+    "RMSE": [
+      0.08184965699911118,
+      5.512103080749512
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:13:32",
+    "run_name": "hybrid_4ch_w21_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 21,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 9.194665610790253,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w21_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w21_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.05735699087381363,
+      2.6507463455200195
+    ],
+    "RMSE": [
+      0.06556770205497742,
+      4.646786689758301
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w21_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w21_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:14:03",
+    "run_name": "single_w31_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.08471405506134,
+    "loss_plot": "Model evaluation figs/single_w31_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w31_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.09306219220161438,
+      2.6801886558532715
+    ],
+    "RMSE": [
+      0.11667972803115845,
+      5.015014171600342
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:14:36",
+    "run_name": "single_w31_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.648957550525665,
+    "loss_plot": "Model evaluation figs/single_w31_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w31_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.06265740096569061,
+      3.839984178543091
+    ],
+    "RMSE": [
+      0.07624460011720657,
+      5.623042583465576
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:15:08",
+    "run_name": "early_mid_late_w31_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.095913916826248,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.037090979516506195,
+      2.7819178104400635
+    ],
+    "RMSE": [
+      0.04444081336259842,
+      5.067781448364258
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:15:50",
+    "run_name": "early_mid_late_w31_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 17.962788105010986,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.046501874923706055,
+      2.7330291271209717
+    ],
+    "RMSE": [
+      0.05746059864759445,
+      4.685338020324707
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:16:34",
+    "run_name": "hybrid_4ch_w31_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 6.60858091711998,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.08220964670181274,
+      2.3161780834198
+    ],
+    "RMSE": [
+      0.10149408876895905,
+      4.083555221557617
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:17:19",
+    "run_name": "hybrid_4ch_w31_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 20.12979817390442,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.11819873005151749,
+      4.075907230377197
+    ],
+    "RMSE": [
+      0.13564950227737427,
+      5.908690452575684
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:18:00",
+    "run_name": "single_w31_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.543819338083267,
+    "loss_plot": "Model evaluation figs/single_w31_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w31_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.060968637466430664,
+      3.270897150039673
+    ],
+    "RMSE": [
+      0.08225846290588379,
+      5.860769748687744
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:18:42",
+    "run_name": "single_w31_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 14.062881350517273,
+    "loss_plot": "Model evaluation figs/single_w31_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w31_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.0687253400683403,
+      3.363762617111206
+    ],
+    "RMSE": [
+      0.10155554115772247,
+      5.845424175262451
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:19:22",
+    "run_name": "early_mid_late_w31_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.602405279874802,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.07986027002334595,
+      3.347348690032959
+    ],
+    "RMSE": [
+      0.11196804791688919,
+      5.6545867919921875
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:19:52",
+    "run_name": "early_mid_late_w31_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.970096111297607,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.052255574613809586,
+      2.938277006149292
+    ],
+    "RMSE": [
+      0.07760415226221085,
+      5.298027515411377
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:20:23",
+    "run_name": "hybrid_4ch_w31_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.82073473930359,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.09324362128973007,
+      3.043137550354004
+    ],
+    "RMSE": [
+      0.11141081154346466,
+      5.578008651733398
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:20:55",
+    "run_name": "hybrid_4ch_w31_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 19.520904064178467,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.06908183544874191,
+      3.9204556941986084
+    ],
+    "RMSE": [
+      0.08375078439712524,
+      6.45742654800415
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:21:25",
+    "run_name": "single_w31_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 20.44652485847473,
+    "loss_plot": "Model evaluation figs/single_w31_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w31_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.05057092756032944,
+      3.388118267059326
+    ],
+    "RMSE": [
+      0.06377005577087402,
+      6.082813739776611
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:21:55",
+    "run_name": "single_w31_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.482275933027267,
+    "loss_plot": "Model evaluation figs/single_w31_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w31_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.057225391268730164,
+      3.028373956680298
+    ],
+    "RMSE": [
+      0.07571116834878922,
+      5.318574905395508
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:22:26",
+    "run_name": "early_mid_late_w31_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.525409698486328,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.05466592311859131,
+      3.6117498874664307
+    ],
+    "RMSE": [
+      0.06256531178951263,
+      6.25997257232666
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:22:56",
+    "run_name": "early_mid_late_w31_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 19.18066906929016,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.05706580728292465,
+      3.656933069229126
+    ],
+    "RMSE": [
+      0.06666664034128189,
+      5.847363471984863
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:23:28",
+    "run_name": "hybrid_4ch_w31_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.567766085267067,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.08048548549413681,
+      3.333888530731201
+    ],
+    "RMSE": [
+      0.11321163177490234,
+      5.407707214355469
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:23:58",
+    "run_name": "hybrid_4ch_w31_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.512135028839111,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.05410768464207649,
+      2.7967123985290527
+    ],
+    "RMSE": [
+      0.06674578040838242,
+      4.4353861808776855
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:24:30",
+    "run_name": "single_w31_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.784104585647583,
+    "loss_plot": "Model evaluation figs/single_w31_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w31_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.06739162653684616,
+      2.6064605712890625
+    ],
+    "RMSE": [
+      0.0808316022157669,
+      4.516523838043213
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:25:01",
+    "run_name": "single_w31_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.349106550216675,
+    "loss_plot": "Model evaluation figs/single_w31_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w31_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.06940069794654846,
+      3.3502960205078125
+    ],
+    "RMSE": [
+      0.08569667488336563,
+      5.914450645446777
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w31_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w31_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:25:32",
+    "run_name": "early_mid_late_w31_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.501035690307617,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.0736001506447792,
+      2.7124111652374268
+    ],
+    "RMSE": [
+      0.09019872546195984,
+      4.650402069091797
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:26:03",
+    "run_name": "early_mid_late_w31_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.435086786746979,
+    "loss_plot": "Model evaluation figs/early_mid_late_w31_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w31_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.04472450911998749,
+      3.0979180335998535
+    ],
+    "RMSE": [
+      0.05662310868501663,
+      5.32875919342041
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w31_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w31_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:26:35",
+    "run_name": "hybrid_4ch_w31_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 10.15059769153595,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.06061575561761856,
+      2.4328365325927734
+    ],
+    "RMSE": [
+      0.0870537981390953,
+      4.448758602142334
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:27:06",
+    "run_name": "hybrid_4ch_w31_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 31,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.313791938126087,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w31_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w31_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.11699826270341873,
+      3.1090152263641357
+    ],
+    "RMSE": [
+      0.15286459028720856,
+      5.362417221069336
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w31_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w31_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:27:37",
+    "run_name": "single_w41_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 9.170857608318329,
+    "loss_plot": "Model evaluation figs/single_w41_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w41_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.10804100334644318,
+      2.9017553329467773
+    ],
+    "RMSE": [
+      0.1496903896331787,
+      4.816768169403076
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:28:07",
+    "run_name": "single_w41_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 1,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.214241862297058,
+    "loss_plot": "Model evaluation figs/single_w41_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w41_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.09302455931901932,
+      3.109928846359253
+    ],
+    "RMSE": [
+      0.11221536993980408,
+      5.051703453063965
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:28:37",
+    "run_name": "early_mid_late_w41_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.083707571029663,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.08021463453769684,
+      3.432332754135132
+    ],
+    "RMSE": [
+      0.1004202589392662,
+      6.201880931854248
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:29:06",
+    "run_name": "early_mid_late_w41_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 1,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.114679098129272,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.07161309570074081,
+      3.085071086883545
+    ],
+    "RMSE": [
+      0.10140194743871689,
+      5.560052871704102
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:29:36",
+    "run_name": "hybrid_4ch_w41_o1_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 8.249350786209106,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o1_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o1_lr1e-03_best.pth",
+    "MAE": [
+      0.09950018674135208,
+      2.5905466079711914
+    ],
+    "RMSE": [
+      0.1222873330116272,
+      4.554955959320068
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o1_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o1_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:30:06",
+    "run_name": "hybrid_4ch_w41_o1_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 1,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 13.546400010585785,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o1_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o1_lr3e-04_best.pth",
+    "MAE": [
+      0.1093628779053688,
+      3.4689550399780273
+    ],
+    "RMSE": [
+      0.12510809302330017,
+      5.86230993270874
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o1_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o1_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:30:36",
+    "run_name": "single_w41_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 7.985149174928665,
+    "loss_plot": "Model evaluation figs/single_w41_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w41_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.1026914119720459,
+      2.6254172325134277
+    ],
+    "RMSE": [
+      0.13612012565135956,
+      4.395025253295898
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:31:06",
+    "run_name": "single_w41_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 2,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 18.516133069992065,
+    "loss_plot": "Model evaluation figs/single_w41_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w41_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.059540070593357086,
+      3.937509775161743
+    ],
+    "RMSE": [
+      0.07724428176879883,
+      6.127734661102295
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:31:37",
+    "run_name": "early_mid_late_w41_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.751574456691742,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.06704940646886826,
+      3.8161072731018066
+    ],
+    "RMSE": [
+      0.07604199647903442,
+      6.423938751220703
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:32:08",
+    "run_name": "early_mid_late_w41_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 2,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 9.574369058012962,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.07352634519338608,
+      2.646711826324463
+    ],
+    "RMSE": [
+      0.08678758889436722,
+      4.931177616119385
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:32:38",
+    "run_name": "hybrid_4ch_w41_o2_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.577173829078674,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o2_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o2_lr1e-03_best.pth",
+    "MAE": [
+      0.08785126358270645,
+      2.5528414249420166
+    ],
+    "RMSE": [
+      0.13796159625053406,
+      4.858272075653076
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o2_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o2_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:33:08",
+    "run_name": "hybrid_4ch_w41_o2_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 2,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.738792330026627,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o2_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o2_lr3e-04_best.pth",
+    "MAE": [
+      0.05251915752887726,
+      2.9369711875915527
+    ],
+    "RMSE": [
+      0.06621001660823822,
+      5.400705814361572
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o2_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o2_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:33:38",
+    "run_name": "single_w41_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.085985213518143,
+    "loss_plot": "Model evaluation figs/single_w41_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w41_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.07996131479740143,
+      3.5868940353393555
+    ],
+    "RMSE": [
+      0.12479998916387558,
+      5.5090413093566895
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:34:08",
+    "run_name": "single_w41_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 3,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.33923864364624,
+    "loss_plot": "Model evaluation figs/single_w41_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w41_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.06424461305141449,
+      3.811873197555542
+    ],
+    "RMSE": [
+      0.07980653643608093,
+      6.385678768157959
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:34:38",
+    "run_name": "early_mid_late_w41_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 11.740407943725586,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.03640973940491676,
+      2.992039442062378
+    ],
+    "RMSE": [
+      0.04346519336104393,
+      4.771738052368164
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:35:09",
+    "run_name": "early_mid_late_w41_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 3,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 19.0637309551239,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.0689811035990715,
+      3.245274066925049
+    ],
+    "RMSE": [
+      0.09126780927181244,
+      5.106773853302002
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:35:39",
+    "run_name": "hybrid_4ch_w41_o3_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 7.167459771037102,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o3_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o3_lr1e-03_best.pth",
+    "MAE": [
+      0.07993613928556442,
+      2.411393404006958
+    ],
+    "RMSE": [
+      0.09898144751787186,
+      4.247159481048584
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o3_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o3_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:36:10",
+    "run_name": "hybrid_4ch_w41_o3_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 3,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.584077149629593,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o3_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o3_lr3e-04_best.pth",
+    "MAE": [
+      0.052426718175411224,
+      3.279017448425293
+    ],
+    "RMSE": [
+      0.06877707690000534,
+      5.637559413909912
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o3_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o3_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:36:41",
+    "run_name": "single_w41_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.537943840026855,
+    "loss_plot": "Model evaluation figs/single_w41_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/single_w41_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.07711990177631378,
+      3.0418026447296143
+    ],
+    "RMSE": [
+      0.09965338557958603,
+      5.446293830871582
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:37:11",
+    "run_name": "single_w41_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 4,
+    "channel_mode": "single",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 12.611294746398926,
+    "loss_plot": "Model evaluation figs/single_w41_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/single_w41_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.06124810129404068,
+      2.999084234237671
+    ],
+    "RMSE": [
+      0.07977324724197388,
+      4.861990928649902
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/single_w41_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/single_w41_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:37:42",
+    "run_name": "early_mid_late_w41_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 14.10247726738453,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.1973351091146469,
+      3.8281784057617188
+    ],
+    "RMSE": [
+      0.22534997761249542,
+      5.961994647979736
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:38:14",
+    "run_name": "early_mid_late_w41_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 4,
+    "channel_mode": "early_mid_late",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 16.159462094306946,
+    "loss_plot": "Model evaluation figs/early_mid_late_w41_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/early_mid_late_w41_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.04769984260201454,
+      3.1169607639312744
+    ],
+    "RMSE": [
+      0.05749083310365677,
+      5.236972808837891
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/early_mid_late_w41_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/early_mid_late_w41_o4_lr3e-04_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:38:44",
+    "run_name": "hybrid_4ch_w41_o4_lr1e-03",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.001,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 14.629039645195007,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o4_lr1e-03_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o4_lr1e-03_best.pth",
+    "MAE": [
+      0.0937558189034462,
+      4.11407470703125
+    ],
+    "RMSE": [
+      0.12254980951547623,
+      6.0115742683410645
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o4_lr1e-03_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o4_lr1e-03_pct_error_mus.png"
+    }
+  },
+  {
+    "timestamp": "2026-01-30T10:39:15",
+    "run_name": "hybrid_4ch_w41_o4_lr3e-04",
+    "data_type": "mat",
+    "mat_path": "/Users/lydialichen/Library/CloudStorage/OneDrive-UniversityCollegeLondon/Year 3/Research Project in Biomedical Engineering/Code/Pre-obtained data/dataset_homo_small.mat",
+    "mat_struct_key": null,
+    "t_key": "t",
+    "X_key": "X",
+    "y_key": "y",
+    "sg_window": 41,
+    "sg_order": 4,
+    "channel_mode": "hybrid_4ch",
+    "crop_t_max": 5.0,
+    "hidden_fc": [
+      128,
+      64
+    ],
+    "lr": 0.0003,
+    "epochs": 20,
+    "batch_size": 32,
+    "best_val": 15.571967840194702,
+    "loss_plot": "Model evaluation figs/hybrid_4ch_w41_o4_lr3e-04_loss_curves.png",
+    "model_path": "Best paths/hybrid_4ch_w41_o4_lr3e-04_best.pth",
+    "MAE": [
+      0.0657007098197937,
+      2.760890245437622
+    ],
+    "RMSE": [
+      0.08216965198516846,
+      5.298902988433838
+    ],
+    "pct_error_plots": {
+      "mua": "Model evaluation figs/hybrid_4ch_w41_o4_lr3e-04_pct_error_mua.png",
+      "mus": "Model evaluation figs/hybrid_4ch_w41_o4_lr3e-04_pct_error_mus.png"
+    }
   }
 ]
